@@ -1,0 +1,15 @@
+.main-body{
+    margin: 0 auto;
+    max-width: 1080px;
+    min-width: 1080px;
+    display: flex;
+    align-items: center; 
+    z-index: 0;   
+}
+
+.restaurant-list{
+    display: grid;
+    /* row-gap: 0px;
+    column-gap: 0px; */
+    grid-template-columns: auto auto auto auto;
+}

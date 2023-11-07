@@ -1,0 +1,38 @@
+.card-main{
+    height: 374px;
+    width: 284px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.card-main:hover{
+    height: 300px;
+    width: 240px;
+}
+
+.body-card{
+    display: block;
+    position: relative;
+    height: 182px;
+    width: 273px;
+    /* border: 1px; */
+    border-radius: 20px;
+    box-shadow: 1px;
+    background-color: red;
+    z-index: 1000;
+    margin-top: 100px;
+}
+
+.menu-item-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.menu-item-img:hover{
+
+}
